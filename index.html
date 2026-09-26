@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Portfolio</title>
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<style type="text/tailwindcss">
+		@theme {
+    --color-bright-blue: #3b82f6;
+    --color-deep-charcoal: #1a1a1a;
+  }
+</style>
+
+</head>
+
+
+<body>
+
+	<header class="flex flex-col md:flex-row gap-2 justify-between items-center p-2 border-b-4">
+		<span>STUDENT_PORTFOLIO_V1</span>
+
+		<nav class="flex items-center gap-3">
+			<a href="index.html" class="border-b-2 font-bold">HOME</a>
+			<a href="projects.html">PROJECTS</a>
+			<a href="contact.html">CONTACT</a>
+		</nav>
+
+		<div>
+			<span class="text-xl">🔍</span>
+			<button class="border bg-deep-charcoal text-white px-6 py-3 text-center hover:bg-bright-blue transition-colors duration-300">DOWNLOAD_CV</button>
+		</div>
+	</header>
+
+	<section class="p-2">
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+			<div class="col-span-2 m-12">
+				<p class="m-2 text-sm tracking-widest uppercase">SELECTED WORKS 2026-2027</p>
+				<h1 class="text-6xl font-bold">CODING INTEGRITY & CODER'S LOGIC PERFECTLY PUT.</h1>
+			</div>
+			<div class="mt-24">
+				<p class="border-l-4 pl-4">This is a portfolio website containing most of the projects and codes completed while learning HTML and CSS as a stepping stone to learn other coding languages.</p>
+				<div class="flex gap-3 mt-6">
+					<button class="border bg-deep-charcoal text-white tracking-wider px-6 py-3 text-center flex-1 hover:bg-bright-blue transition-colors duration-300">EXPLORE <br> PORTFOLIO</button>
+					<button class="border border-deep-charcoal text-deep-charcoal tracking-wider px-6 py-3 text-center flex-1 hover:text-white hover:bg-deep-charcoal transition-colors duration-300">MY <br> PHILOSOPHY</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="grid grid-cols-1 md:grid-cols-4 border-t-1 border-b-1 py-7 m-4 divide-x text-center bg-gray-100">
+		<div>
+			<p class="text-sm">PROJECTS COMPLETED</p>
+			<p class="text-4xl font-bold italic">42+</p>
+		</div>
+		<div>
+			<p class="text-sm">GLOBAL AWARDS</p>
+			<p class="text-4xl font-bold italic">12</p>
+		</div>
+		<div>
+			<p class="text-sm">TECHINCAL CERTS</p>
+			<p class="text-4xl font-bold italic">08</p>
+		</div>
+		<div>
+			<p class="text-sm">DESIGN LABS</p>
+			<p class="text-4xl font-bold italic">03</p>
+		</div>
+	</section>
+
+	<section class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
+
+		<div class="bg-[url('sunset.jpeg')] bg-cover bg-center grayscale text-white p-8 flex flex-col justify-end">
+			<p>PROJECT 001</p>
+			<h3 class="text-4xl font-bold">THE FIRST CODE PROJECT</h3>
+			<p>The first real code I tried to make with help of the tutorials and learning videos that I found</p>
+			<a href="#link" class="mt-3 font-bold text-sm">VIEW THE CODE</a>
+		</div>
+
+
+		<div class="flex flex-col gap-4">
+			<div class="p-8 bg-gray-200 border-b">
+				<p class="tracking-widest">METHODOLOGY</p>
+				<h4 class="text-4xl font-bold mt-4">CODE INTEGRATION & CODING ANALYSIS</h4>
+				<p class="text-sm mt-4">Every code follows a rigid grid system of 8px increments, ensuring mathematical perfection from initial concept to the final blueprint. This makes for better viewing and cleaner designs</p>
+				<div class="flex gap-3 mt-12 border-t-1 py-2">
+					<span class="flex-1 uppercase border-b-4 pb-2">CAD</span>
+					<span class="flex-1 uppercase border-b-4 pb-2">3D DESIGNS</span>
+					<span class="flex-1 uppercase border-b-4 border-gray-300 pb-2">SUSTAINABILITY</span>
+				</div>
+			</div>
+
+
+			<div class="grid grid-cols-2 gap-4 h-100">
+				<div class=" bg-gray-100 p-8 flex flex-col">
+					<p class="tracking-widest">LAB ARCHIVES</p>
+					<p class="text-xl font-bold">SHADOW STUDIES</p>
+					<img src="media.jpeg" class="w-full h-32 object-cover mt-30 grayscale" />
+				</div>
+				<div class="p-8 bg-deep-charcoal flex flex-col text-white items-center justify-center text-center">
+					<h3 class="text-xl font-bold">JOIN THE CODING DIALOGUE NOW.</h3>
+					<button class="border border-white p-2 text-sm mt-4 font-bold">SUBMIT ENQUIRY</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="flex flex-col md:flex-row md:justify-between items-center border-b-2 p-4">
+			<div>
+				<p class="tracking-widest">INDEX</p>
+				<h2 class="text-5xl font-bold">CURRENT PROJECTS</h2>
+			</div>
+			<div>
+				<p class="tracking-widest">SORT BY</p>
+				<p class="underline font-bold text-sm">YEAR: 2026</p>
+			</div>
+		</div>
+		<div class="mt-12">
+			<div class="flex flex-col md:flex-row justify-between p-6 border-b">
+				<p class="font-bold text-sm">001</p>
+				<p class="text-xl font-bold">MY FOOTBALL WEBPAGE</p>
+				<p>MANCHESTER, UK</p>
+				<div>
+					<span class="bg-gray-200 text-xs font-bold p-0.5">URBAN</span>
+					<span class="bg-gray-200 text-xs font-bold p-0.5">RESIDENTIAL</span>
+				</div>
+			</div>
+			<div class="flex flex-col md:flex-row justify-between  p-6 border-b">
+				<p class="font-bold text-sm">002</p>
+				<p class="text-xl font-bold">THE TRADING APP</p>
+				<p>MANCHESTER, UK</p>
+				<div>
+					<span class="bg-gray-200 text-xs font-bold p-0.5">SCIENCE</span>
+					<span class="bg-gray-200 text-xs font-bold p-0.5">MINIMALIST</span>
+				</div>
+			</div>
+			<div class="flex flex-col md:flex-row justify-between  p-6">
+				<p class="font-bold text-sm">003</p>
+				<p class="text-xl font-bold">THE BANKING APP</p>
+				<p>MANCHESTER, UK</p>
+				<div>
+					<span class="bg-gray-200 text-xs font-bold p-0.5">PUBLIC</span>
+					<span class="bg-gray-200 text-xs font-bold p-0.5">INTERIOR</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-deep-charcoal text-white flex flex-col items-center justify-center p-2 gap-10 h-150 mt-12">
+		<h2 class="text-3xl md:text-5xl text-center font-bold">STAY UPDATED ON THE LATEST CODING INVESTIGATIONS AND UPDATES</h2>
+		<div class="flex justify-between border-b border-white pb-2 text-xl">
+			<input type="email" name="EMAIL" placeholder="EMAIL ADDRESS" /> <span>-></span>
+		</div>
+		<div class="flex gap-8 md:gap-16">
+			<a href="#journal" class="tracking-widest text-xl">JOURNAL</a>
+			<a href="#notes" class="tracking-widest text-xl">NOTES</a>
+			<a href="#twitter" class="tracking-widest text-xl">TWITTER</a>
+		</div>
+	</section>
+
+	<footer class="flex flex-col md:flex-row justify-between items-center p-3 border-t-4 bg-gray-100">
+		<span>&copy 2026 CODING PORTFOLIO. ALL RIGHTS RESERVED</span>
+
+		<nav class="flex items-center gap-3">
+			<a href="https://github.com/danielembiemu">GITHUB</a>
+			<a href="instagram.com">INSTAGRAM</a>
+			<a href="https://www.linkedin.com/in/daniel-embiemu-8277952b4?utm_source=share_via&utm_content=profile&utm_medium=member_ios">LINKEDIN</a>
+			<a href="x.com">X</a>
+		</nav>
+
+
+	</footer>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
